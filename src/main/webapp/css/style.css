@@ -1,0 +1,121 @@
+@charset "UTF-8";
+body{
+   font-family: 'Noto Sans KR', sans-serif;
+   color: #000;
+   padding-top: 180px;
+}
+a, a:link{
+   color: #333;
+   text-decoration: none;
+}
+/*********** header ***********/
+header{
+   background: #efefef;
+   border-bottom: 1px solid #999;
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+}
+.brand{
+   font-weight: 800;
+   text-shadow:0 0 15px rgba(0, 0, 0, 0.2);
+}
+.top-nav{
+   font-size: 10px;
+   line-height: 20px;
+   color: #999;
+}
+.top-nav a{
+   font-size: 14px;
+   color: #999;
+   margin-left: 8px;
+   margin-right: 8px;
+}
+.navi{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navi a{
+   font-weight: 400;
+   padding: 5px 20px;
+   transition: all 300ms;
+}
+.navi a:hover{  
+   color: #999;
+   background: #ededed;
+}
+footer{
+   position: fixed;
+   width: 100%;
+   border-top:1px solid #ddd;
+   bottom: 0px;
+   left: 0;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 14px;
+   color: #999;
+   
+}
+/************ register *************/
+.registerform{
+   max-width: 800px;
+   padding: 20px 30px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #efefef;
+   border: 1px solid #eee;
+   border-radius: 10px;
+   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25),
+            0 0 15px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+/************ login *************/
+.loginform{
+   max-width: 600px;
+   padding: 40px 80px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #efefef;
+   border: 1px solid #eee;
+   border-radius: 10px;
+   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25),
+            0 0 15px 0 rgba(0, 0, 0, 0.14);
+}
+.wh600{
+	max-width: 600px;
+	padding: 20px 80px;
+}
+a.naver-btn{
+	background-color: rgba(62, 175, 14);
+	color: #fff;
+	font-weight: 600;
+}
+a.kakao-btn{
+	background-color: rgba(255, 232, 18);
+	color: #000;
+	font-weight: 600;
+}
+
+
+/********회원목록 *******?
+.memberstbl,.lmember{
+	margin-bottom :40px;
+}
+
+
+/*****게시판*******?
+
+.btn{
+	margin-left: 1200px;
+}
+
+
